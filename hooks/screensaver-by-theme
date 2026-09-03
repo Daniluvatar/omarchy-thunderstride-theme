@@ -1,0 +1,8 @@
+#!/bin/bash
+# After `omarchy theme set`, swap in screensaver-<slug>.txt when it exists.
+set -euo pipefail
+THEME="${1:-}"
+BR="$HOME/.config/omarchy/branding"
+SRC="$BR/screensaver-$THEME.txt"
+[[ -n $THEME && -f $SRC ]] || exit 0
+cp "$SRC" "$BR/screensaver.txt"

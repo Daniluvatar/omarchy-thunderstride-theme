@@ -1,0 +1,36 @@
+mode = "dark"
+
+# Thunderstride — dusk earth, thunder gold, fern, and bone.
+# Cool land-walking dinosaur adventure for kids, not horror-black.
+accent = "#E5A31A"
+selection = "#3D3428"
+muted = "#7A6B55"
+
+background = "#1C1812"
+dark_background = "#14110D"
+darker_background = "#0C0A08"
+lighter_background = "#2A241C"
+
+foreground = "#E8DCC4"
+dark_foreground = "#8A7B66"
+light_foreground = "#C9B89A"
+bright_foreground = "#F4EBD8"
+
+red = "#E05A48"
+yellow = "#E8C04A"
+orange = "#E08030"
+green = "#7CB05A"
+cyan = "#4EB8A8"
+blue = "#4A8BB0"
+magenta = "#D47878"
+brown = "#A06B3C"
+
+bright_red = "#F07868"
+bright_yellow = "#F0D06A"
+bright_green = "#98C872"
+bright_cyan = "#6ED0C0"
+bright_blue = "#68A8C8"
+bright_magenta = "#E89890"
+
+hyprland_active_border = "rgba(e5a31aee) rgba(7cb05aee) 45deg"
+hyprland_inactive_border = "rgba(7a6b55aa)"
