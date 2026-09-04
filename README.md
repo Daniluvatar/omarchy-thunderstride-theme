@@ -22,13 +22,6 @@ omarchy theme install https://github.com/Daniluvatar/omarchy-thunderstride-theme
 omarchy theme set Thunderstride
 ```
 
-Or copy by hand:
-
-```bash
-cp -r . ~/.config/omarchy/themes/thunderstride
-omarchy theme set Thunderstride
-```
-
 Cycle wallpapers with Super+Ctrl+Space or `omarchy theme bg next`.
 
 Git-install keeps colors, backgrounds, icons, and generated app files.
@@ -45,8 +38,8 @@ omarchy hook install theme-set hooks/screensaver-by-theme
 omarchy-launch-screensaver force
 ```
 
-The hook copies `screensaver-<slug>.txt` on `omarchy theme set`. Slug after
-git-install is `thunderstride`.
+The hook copies `screensaver-thunderstride.txt` into `screensaver.txt` when you
+run `omarchy theme set Thunderstride`.
 
 ## License
 
