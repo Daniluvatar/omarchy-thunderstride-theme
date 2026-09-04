@@ -41,6 +41,10 @@ omarchy-launch-screensaver force
 The hook copies `screensaver-thunderstride.txt` into `screensaver.txt` when you
 run `omarchy theme set Thunderstride`.
 
+The wordmark is rendered from [Omarchy Font](https://tinker.markcuda.com/omarchy-font/)
+by Mark Cuda (MIT). T-rex and title burn in thunder gold (`#E5A31A`); the tagline
+is fern (`#7CB05A`).
+
 ## License
 
 MIT. Original illustrations only.
